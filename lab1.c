@@ -73,10 +73,10 @@ int main() {
                     int num;
                     printf("Введіть число: ");
                     scanf("%d", &num);
-                    if(num % 2 == 0)
-                        printf("Парне\n");
-                    else
+                    if(num % 2)
                         printf("Непарне\n");
+                    else
+                        printf("Парне\n");
                 }
                 break;
             case 10:
